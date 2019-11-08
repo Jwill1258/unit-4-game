@@ -25,12 +25,9 @@ time, mark, audio, video {
 }
 
 body {
-    background-image: url( '../images/waterfall-background.jpeg' );	
-	background-image: height 100%;
-	background-image: width 100%;
+    background-image: url( '../images/waterfall-background.jpeg' );
+	background-image: height 4000px;
 	background-size: 100%;
-	height: 100%;
-	background-position: center;
 	background-repeat: no-repeat;
 
 }      
@@ -74,7 +71,6 @@ body {
 	margin-right: 30px;
 	padding-left: 20px;
 	color: navy;
-	opacity: 75%;
 }
 
 .numberToMatch {

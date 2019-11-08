@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header">Treasure Hunt</div>
+
+    <div class="jumbotron">
+        
+        <h1 class="display-4">Rules of Conquest!</h1>
+        <p class="lead">
+            
+            1. You will be given a random at the start of the game.
+            
+            <br>
+            
+            2. There are four crystals below, by clicking on one you will add a certain amount of points to your      score.
+            
+            <br>
+            
+            3. You win the game by matching your total score to a random number, you lose the game if your total      score goes above the random number.
+            
+            <br>
+            
+            4. The value of each crystal is hidden until you click on it.
+            
+            <br>
+            
+            5. Each time the game starts the value of the crystals and random number will change.
+            
+            <br>
+            
+            Let the games begin!!!!
+
+        </p>
+        
+
+    </div>
+
+    <div id="numbers">
+            <div class="numberToMatch">
+                <p>Random Number:
+                    <span id= "randomNumber"></span>
+                </p>
+            </div>
+            <div class="winsandlosses">
+                <p>Wins:
+                    <span id= "numberWins"></span>
+                    </br>
+                    Losses: 
+                    <span id= "numberLosses"></span>
+                </p>
+            </div>
+
+    <div class="crystals">
+            
+            <img src="assets/images/blue-button.png" class=crystalImage id= "one">
+            <img src="assets/images/green-button.png" class=crystalImage id= "two">
+            <img src="assets/images/pink button.png" class=crystalImage id= "three">
+            <img src="assets/images/purple-button.png" class=crystalImage id= "four">
+    
+    </div>
+
+    
+    <div class="countmsg"> 
+
+        <p>Your total score is:
+        
+            <span id="totalCount"></span>
+        
+        </p>
+    
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+       
+        
+</body>
+</html>
